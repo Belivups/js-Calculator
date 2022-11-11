@@ -61,7 +61,8 @@ body{
 
 input[type="button"]{
     width: 22%;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    font-weight: bold;
     height: 50px;
     margin-bottom: 10px;
     border-radius: 4px;
