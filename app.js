@@ -43,3 +43,5 @@ let color = document.querySelectorAll('.color').forEach((btn) => btn.addEventLis
     document.getElementById('display').style.color = `${btn.value}`
     
 }));
+
+
