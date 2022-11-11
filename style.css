@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    font-family: -apple-system;
+    font-size: 62.5%;
+    font-weight: bold;
+
+}
+
+p, a{
+    font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 300%;
+}
+
+
+li{
+    display: inline-block;
+    padding: 0 1rem;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active, a:visited, a:link {
+    color: hsl(250, 100%, 60%);
+}
+
+a:hover {
+    color: hsl(250, 100%, 20%);
+}
+
+body{
+    background-image: linear-gradient(
+            25deg,
+            hsl(240deg 96% 81%) 0%,
+            hsl(210deg 100% 71%) 9%,
+            hsl(193deg 100% 50%) 18%,
+            hsl(189deg 100% 50%) 27%,
+            hsl(185deg 100% 50%) 36%,
+            hsl(179deg 100% 48%) 44%,
+            hsl(170deg 100% 50%) 53%,
+            hsl(160deg 99% 67%) 61%,
+            hsl(149deg 96% 74%) 69%,
+            hsl(135deg 92% 79%) 77%,
+            hsl(117deg 86% 82%) 85%,
+            hsl(99deg 82% 81%) 93%,
+            hsl(85deg 78% 80%) 100%
+    );
+    padding: 30px 10px ;
+    margin: auto;
+    height: 100vh
+}
+
+input[type="button"]{
+    width: 22%;
+    font-size: 1.8rem;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.one{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    align-self: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+textarea[name="display"]{
+    padding: 10px 10px;
+    outline: none;
+    margin: 0 0 20px 0px;
+    text-align: right;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100px;
+    font-size: 3rem;
+    font-weight: bold;
+    resize: none;
+    overflow:hidden;
+    color: #186385;
+}
+.main{
+    margin-top: 100px;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.calc{
+    margin: auto;
+    padding: 20px 20px 10px 20px;
+    width: 320px;
+    height: auto;
+    border-radius: 10px;
+    outline: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #186385;
+
+}
+.main_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.display{
+    width: 100%;
+}
+
+#result{
+    width: 48%;
+}
+
+.c{
+    width: 48% !important;
+}
+
+
+.color{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: 4px solid white;
+
+}
+
+.blue{
+    background-color: #00009d;
+
+}
+.red{
+    background-color: #ef0202;
+
+}
+
+.black{
+    background-color: black;
+
+}
+
+.DeepPink{
+    background-color: DeepPink;
+}
+.default{
+    background-color: #186385;
+}
+
+.bg{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.color{
+    margin: 5px;
+}
